@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meus Ebooks Online</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;color:#123f32;background:#fbfaf4}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 6%;background:#fffdf7;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000010}
+.logo{font-size:27px;font-weight:800}.logo span{font-style:italic;font-weight:500}
+nav a{margin:0 12px;text-decoration:none;color:#173f34;font-weight:600}
+.btn{display:inline-block;background:#16804d;color:white;padding:14px 25px;border-radius:30px;text-decoration:none;font-weight:800}
+.hero{padding:70px 7%;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center;background:linear-gradient(120deg,#fffaf0,#edf7e8)}
+.hero h1{font-size:50px;line-height:1.05;margin:0 0 20px}.hero p{font-size:19px;line-height:1.6;color:#38544a}
+.mockbook{background:#fff;padding:28px;border-radius:25px;box-shadow:0 20px 50px #0b543420;text-align:center;transform:rotate(2deg)}
+.cover{max-width:330px;margin:auto;padding:45px 20px;background:linear-gradient(145deg,#eef8df,#b9dc92);border-radius:10px;box-shadow:0 15px 25px #0002}
+.cover h2{font-size:38px;margin:0 0 12px}.cover strong{color:#e65f1c;font-size:20px}
+.feature{padding:65px 7%;display:grid;grid-template-columns:40% 60%;gap:45px;align-items:center}
+.feature h2{font-size:36px;margin:8px 0}.price{font-size:30px;font-weight:900;margin:25px 0}.checks{line-height:2;font-size:18px}
+section{padding:55px 7%}.center{text-align:center}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.benefit,.card{background:white;padding:25px;border-radius:18px;box-shadow:0 8px 25px #0000000d}.benefit{text-align:center}.icon{font-size:34px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card h3{margin-bottom:8px}.card .price{font-size:21px;margin:14px 0}
+.banner{margin:30px 7%;padding:35px;border-radius:22px;background:#07513c;color:white;display:flex;justify-content:space-between;align-items:center}
+footer{background:#063e30;color:white;padding:45px 7%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px}
+footer a{color:white}.small{font-size:13px;opacity:.8}
+@media(max-width:800px){nav{display:none}.hero,.feature{grid-template-columns:1fr}.hero h1{font-size:38px}.benefits,.grid,footer{grid-template-columns:1fr 1fr}.banner{display:block}.banner .btn{margin-top:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">📖 Meus Ebooks <span>Online</span></div>
+  <nav><a href="#inicio">Início</a><a href="#ebooks">E-books</a><a href="#sobre">Sobre Nós</a><a href="#contato">Contato</a></nav>
+  <div>🔍 🛒</div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div>
+    <h1>Conhecimento que cabe na sua rotina!</h1>
+    <p>No Meus Ebooks Online você encontra e-books práticos, inspiradores e fáceis de aplicar no dia a dia.</p>
+    <p>Conteúdos para aprender, cuidar melhor da sua rotina e descobrir novas possibilidades.</p>
+    <a class="btn" href="#ebooks">ESCOLHA SEU E-BOOK →</a>
+  </div>
+  <div class="mockbook">
+    <div class="cover"><div>🌿</div><h2>50 Receitas<br>Fitness</h2><strong>FÁCEIS E SABOROSAS</strong><p>Mais saúde, energia e bem-estar no seu dia a dia!</p></div>
+  </div>
+</section>
+
+<section class="feature">
+  <div class="mockbook"><div class="cover"><h2>50<br>Receitas<br>Fitness</h2><strong>FÁCEIS E SABOROSAS</strong></div></div>
+  <div>
+    <small>⭐ MAIS VENDIDO</small>
+    <h2>50 Receitas Fitness Fáceis e Saborosas</h2>
+    <p>Descubra receitas práticas, saborosas e equilibradas para deixar sua alimentação mais variada e prazerosa.</p>
+    <div class="checks">✓ 50 receitas variadas<br>✓ Ingredientes simples<br>✓ Preparo fácil e prático<br>✓ Opções para o dia a dia</div>
+    <div class="price">R$ 29,90</div>
+    <a class="btn" href="https://kiwify.app/p2LpJHH" target="_blank">🛒 COMPRAR AGORA →</a>
+  </div>
+</section>
+
+<section id="sobre" class="center">
+  <h2>Por que escolher nossos e-books?</h2>
+  <div class="benefits">
+    <div class="benefit"><div class="icon">📖</div><h3>Conteúdo prático</h3><p>Informações organizadas de forma simples.</p></div>
+    <div class="benefit"><div class="icon">⏱️</div><h3>Praticidade</h3><p>Acesse quando e onde quiser.</p></div>
+    <div class="benefit"><div class="icon">💻</div><h3>Acesso digital</h3><p>Receba seu e-book após a confirmação.</p></div>
+    <div class="benefit"><div class="icon">❤️</div><h3>Feito para você</h3><p>Conteúdos pensados para facilitar sua rotina.</p></div>
+  </div>
+</section>
+
+<section id="ebooks" class="center">
+  <h2>Outros e-books em destaque</h2>
+  <div class="grid">
+    <div class="card"><h3>📘 Rotina Organizada</h3><p>Planeje seu tempo, conquiste seus objetivos e reduza o estresse.</p><div class="price">R$ 24,90</div><a class="btn" href="COLE-AQUI-LINK-KIWIFY">COMPRAR</a></div>
+    <div class="card"><h3>🥑 Emagrecimento Saudável</h3><p>Dicas e estratégias para alcançar seus objetivos com equilíbrio.</p><div class="price">R$ 27,90</div><a class="btn" href="COLE-AQUI-LINK-KIWIFY">COMPRAR</a></div>
+    <div class="card"><h3>🥗 Receitas Low Carb</h3><p>Receitas deliciosas, com baixo teor de carboidratos e muito sabor.</p><div class="price">R$ 26,90</div><a class="btn" href="COLE-AQUI-LINK-KIWIFY">COMPRAR</a></div>
+    <div class="card"><h3>💚 Bem-Estar e Autoestima</h3><p>Mais equilíbrio emocional, autoconfiança e qualidade de vida.</p><div class="price">R$ 22,90</div><a class="btn" href="COLE-AQUI-LINK-KIWIFY">COMPRAR</a></div>
+  </div>
+</section>
+
+<div class="banner"><div><h2>Mais conteúdos em breve!</h2><p>Estamos preparando novos e-books para trazer ainda mais opções para você.</p></div><a class="btn" href="#contato">FIQUE DE OLHO</a></div>
+</main>
+
+<footer id="contato">
+  <div><h2>📖 Meus Ebooks Online</h2><p>Conteúdo digital para aprender, descobrir e transformar sua rotina.</p></div>
+  <div><h3>Tem alguma dúvida?</h3><p>Entre em contato conosco.</p><p>📧 contato@seusite.com</p></div>
+  <div><h3>Redes sociais</h3><p>Instagram · Facebook · WhatsApp · TikTok</p><p class="small">Pagamento seguro via Kiwify 🔒</p></div>
+</footer>
+</body>
+</html>
